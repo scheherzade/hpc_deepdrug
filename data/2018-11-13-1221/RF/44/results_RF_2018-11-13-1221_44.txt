@@ -1,0 +1,20 @@
+Command Line:  44 /home/sshirz1/runs/results/2018-11-13-1221/RF/44/npy
+test_set: 44
+read data (s): 5.379500150680542
+time: 19242.404484033585
+shape of p:  (10469,)
+#of 1s:  848.0
+set 44
+classification report
+             precision    recall  f1-score   support
+
+      decoy       0.99      0.93      0.96     10236
+     active       0.19      0.69      0.30       233
+
+avg / total       0.97      0.93      0.95     10469
+
+confusion matrix:
+[[9549  687]
+ [  72  161]]
+auc:
+Only one class present in y_true. ROC AUC score is not defined in that case.
